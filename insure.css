@@ -288,9 +288,8 @@ footer{
   
 
     .nav-item{
-        font-size: 1.5em;
-        width: 100%;
-        top: 6vh;
+        font-size: 1.3em;
+        top: -100vh;
         right: 0;
         left: 0;
         bottom: 0;
@@ -299,11 +298,11 @@ footer{
         position: absolute;
         height: 100vh;
         gap: 2em;
-        display: none;
         background-image: url(./images/bg-pattern-mobile-nav.svg);
         background-repeat: no-repeat;
         background-position: bottom;
         background-size: contain;
+        transition: all 0.5s;
     }
 
     .nav-item li>a{
